@@ -11,6 +11,7 @@ import { CommunityComponent } from './pages/community/community.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { SportsComponent } from './pages/sports/sports.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ContactComponent } from './components/contact/contact.component';
     CommunityComponent,
     NavbarComponent,
     FooterComponent,
-    ContactComponent
+    ContactComponent,
+    SportsComponent
   ],
   imports: [
     BrowserModule,

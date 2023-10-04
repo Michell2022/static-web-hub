@@ -1,4 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
 @tailwind base;
 @tailwind components;
+
+.button__desing {
+    @apply bg-[#8c48bf] hover:bg-[#fff] border border-[#8c48bf] text-white py-2 hover:text-[#8c48bf] px-10 rounded-3xl duration-300 shadow-[0_8px_4px_-3px_rgba(0,0,0,0.2)];
+  }
+
+.navbar {
+    @apply relative tablet:fixed tablet:w-2/4 tablet:h-screen tablet:bg-blue-400 tablet:top-20 tablet:-left-full tablet:ease-in tablet:duration-300 tablet:opacity-0 tablet:invisible tablet:z-[100]
+                    mobile:fixed mobile:w-2/4 mobile:h-screen mobile:bg-blue-400 mobile:top-20 mobile:-left-full mobile:ease-in mobile:duration-300 mobile:opacity-0 mobile:invisible mobile:z-[100];
+}
+
+.navbar.efecto {
+    @apply left-0 visible opacity-100;
+}
+
+.navbar__link {
+    @apply mx-6 hover:text-white tablet:block tablet:my-10 mobile:block mobile:my-10;
+}
+
 @tailwind utilities;
