@@ -6,20 +6,20 @@ module.exports = {
   theme: {
     extend: {},
     screens: {
-      'mobile': {'max': '639px'},
-      // Pantalla móvil: @media (max-width: 639px) { ... }
+      'desktop': {'max': '1535px'},
+      // => @media (max-width: 1535px) { ... }
 
-      'tablet': {'min': '640px', 'max': '1023px'},
-      // Pantalla de tablet: @media (min-width: 640px and max-width: 1023px) { ... }
+      'laptop': {'max': '1279px'},
+      // => @media (max-width: 1279px) { ... }
 
-      'laptop': {'min': '1024px', 'max': '1279px'},
-      // Pantalla de laptop: @media (min-width: 1024px and max-width: 1279px) { ... }
+      'tablet': {'max': '1023px'},
+      // => @media (max-width: 1023px) { ... }
 
-      'desktop': {'min': '1280px', 'max': '1535px'},
-      // Pantalla de escritorio: @media (min-width: 1280px and max-width: 1535px) { ... }
+      'tablet-Ipads': {'max': '767px'},
+      // => @media (max-width: 767px) { ... }
 
-      'large-desktop': {'min': '1536px'},
-      // Pantalla de escritorio grande: @media (min-width: 1536px) { ... }
+      'mobile ': {'max': '639px'},
+      // => @media (max-width: 639px) { ... }
     },
   },
   plugins: [],

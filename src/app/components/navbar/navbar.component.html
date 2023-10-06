@@ -1,9 +1,9 @@
-<header class="bg-orange-400 fixed w-full flex justify-between items-center h-20 px-12 mobile:px-6">
+<header class="fixed bg-orange-400 w-full flex justify-between items-center h-20 px-12 tablet-Ipads:px-6">
 
     <img src="/assets/icons/logo.svg" alt="logo">
 
-    <nav class="navbar flex tablet:block">
-        <ul class="flex tablet:block mobile:block">
+    <nav class="navbar">
+        <ul class="flex tablet:block">
             <li><a class="navbar__link" routerLink="/sports">Sports</a></li>
             <li><a class="navbar__link" routerLink="/products">Products</a></li>
             <li><a class="navbar__link" routerLink="/about">About</a></li>
@@ -13,10 +13,10 @@
     </nav>
 
     <div>
-        <button type="button" class="button__desing tablet:hidden mobile:hidden">Contact</button>
+        <button type="button" class="button__desing tablet:hidden">Contact</button>
     </div>
 
     <img [src]="isMenuOpen ? '/assets/icons/icon-close.svg' : '/assets/icons/icon-hamburger.svg'"
-    class="img__hamburgueza cursor-pointer hidden tablet:block mobile:block" alt="icono hamburgueza">
+    class="img__hamburgueza hidden cursor-pointer tablet:block" alt="icono hamburgueza">
 
 </header>
