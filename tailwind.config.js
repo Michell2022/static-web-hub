@@ -18,7 +18,7 @@ module.exports = {
       'tablet-Ipads': {'max': '767px'},
       // => @media (max-width: 767px) { ... }
 
-      'mobile ': {'max': '639px'},
+      'mobile ': {'max': '630px'},
       // => @media (max-width: 639px) { ... }
     },
   },
